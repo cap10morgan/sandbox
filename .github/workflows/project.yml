@@ -1,0 +1,9 @@
+on: project_card
+name: Thingy
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: do it
+      run: |
+        echo "Hello you did a thing with a card!"
