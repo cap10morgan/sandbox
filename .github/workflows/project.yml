@@ -1,11 +1,11 @@
 on:
   project_card:
     types: moved
-name: Thingy
+name: Other
 jobs:
   foo:
     runs-on: ubuntu-latest
     steps:
-    - name: do it
+    - name: Add date to card
       run: |
-        echo "Hello you did a thing with a card!"
+        echo "I'm adding a date!"
